@@ -1,0 +1,404 @@
+/*
+Theme Name: MCQs Drill
+Author: Initialace Technologies
+Author URI: http://www.initialace.com/
+Description: 
+Version: 1.0
+*/ 
+
+input.parsley-success,
+ select.parsley-success,
+ textarea.parsley-success {
+   color: #468847;
+   background-color: #DFF0D8;
+   border: 1px solid #D6E9C6;
+ }
+
+ input.parsley-error,
+ select.parsley-error,
+ textarea.parsley-error {
+   color: #B94A48;
+   background-color: #F2DEDE;
+   border: 1px solid #EED3D7;
+ }
+
+ .parsley-errors-list {
+   margin: 2px 0 3px;
+   padding: 0;
+   list-style-type: none;
+   font-size: 0.9em;
+   line-height: 0.9em;
+   opacity: 0;
+
+   transition: all .3s ease-in;
+   -o-transition: all .3s ease-in;
+   -moz-transition: all .3s ease-in;
+   -webkit-transition: all .3s ease-in;
+ }
+
+ .parsley-errors-list.filled {
+   opacity: 1;
+ }
+ 
+ .parsley-type,
+ .parsley-required,
+ .parsley-equalto,
+ .parsley-pattern,
+ .parsley-urlstrict,
+ .parsley-length,
+ .parsley-checkemail{
+  color:#ff0000;
+ }
+ .jumbotron{background-color: #212529;border-radius:0;}
+ .loginBg{background: url('../Images/login.jpg'); background-size: cover;}
+ .loginBg .container{margin-top:10%;}
+ .navbar-dark .navbar-nav .nav-link {color: #fff;}
+
+ /****************************
+
+*      Background Colors        *
+
+****************************/
+
+.bk-primary {
+
+  background: #325d88;
+
+}
+
+.bk-success {
+
+  background: #93c54b;
+
+}
+
+.bk-warning {
+
+  background: #f47c3c;
+
+}
+
+.bk-danger {
+
+  background: #d9534f;
+
+}
+
+.bk-info {
+
+  background: #29abe0;
+
+}
+
+.bk-white,
+
+.bk-light {
+
+  background: #fff;
+
+}
+
+.bk-brand {
+
+  background: #37a6c4;
+
+}
+
+.bk-dark {
+
+  background: #222;
+
+}
+
+.bk-blue {
+
+  background: #0010ce;
+
+}
+
+.bk-alt {
+
+  background: #f7f7f7;
+
+}
+
+.bk-ghost {
+
+  background: transparent;
+
+}
+
+.bk-img {
+
+  position: relative;
+
+  width: 100%;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  background-image: url(../../img/login-bg.jpg);
+
+}
+
+.bk-fixed {
+
+  background-attachment: fixed;
+
+}
+
+.hr-green {
+
+  height: 2px;
+
+  background: #37a6c4;
+
+}
+
+.hr-grey {
+
+  height: 2px;
+
+  background: #f0f0f0;
+
+}
+
+.hr-dashed {
+
+  background-color: transparent;
+
+  border-top: 1px dotted #edf0f5;
+
+  color: transparent;
+
+  height: 1px;
+
+  margin: 20px 0;
+
+}
+
+.panel {
+
+  overflow: hidden;
+
+}
+
+
+/****************************
+
+*   FOR RESPONSIVENESS      *
+
+****************************/
+
+::selection {
+
+  background: #4f5362;
+
+  /* WebKit/Blink Browsers */
+
+  color: #fff;
+
+}
+
+::-moz-selection {
+
+  background: #4f5362;
+
+  /* Gecko Browsers */
+
+  color: #fff;
+
+}
+/****************************
+
+*       Margins         *
+
+****************************/
+
+.mt {
+
+  margin-top: 18px;
+
+}
+
+.mt-0x {
+
+  margin-top: 0 !important;
+
+}
+
+.mt-2x {
+
+  margin-top: 36px;
+
+}
+
+.mt-3x {
+
+  margin-top: 54px;
+
+}
+
+.mt-4x {
+
+  margin-top: 90px;
+
+}
+
+.mt-5x {
+
+  margin-top: 144px;
+
+}
+
+.mb {
+
+  margin-bottom: 18px;
+
+}
+
+.mb-0x {
+
+  margin-bottom: 0 !important;
+
+}
+
+.mb-2x {
+
+  margin-bottom: 36px;
+
+}
+
+.mb-3x {
+
+  margin-bottom: 54px;
+
+}
+
+.mb-4x {
+
+  margin-bottom: 90px;
+
+}
+
+.mb-5x {
+
+  margin-bottom: 144px;
+
+}
+
+.pt {
+
+  padding-top: 18px;
+
+}
+
+.pt-2x {
+
+  padding-top: 36px;
+
+}
+
+.pt-3x {
+
+  padding-top: 54px;
+
+}
+
+.pt-4x {
+
+  padding-top: 90px;
+
+}
+
+.pt-5x {
+
+  padding-top: 144px;
+
+}
+
+.pb {
+
+  padding-bottom: 18px;
+
+}
+
+.pb-2x {
+
+  padding-bottom: 36px;
+
+}
+
+.pb-3x {
+
+  padding-bottom: 54px;
+
+}
+
+.pb-4x {
+
+  padding-bottom: 90px;
+
+}
+
+.pb-5x {
+
+  padding-bottom: 144px;
+
+}
+
+/* Content boxes */
+
+.content-box {
+
+  padding: 15px;
+
+}
+
+.block-anchor {
+
+  display: block;
+
+}
+.page-title{margin-top:30px;font-size:24px;}
+.panel a{text-decoration: none;}
+.panel {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+.panel-footer {
+    padding: 10px 15px;
+    background-color: #f8f5f0;
+    border-top: 1px solid #dfd7ca;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.panel .panel-footer {
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.panel-default .panel-heading, .panel-default .panel-title, .panel-default .panel-footer {
+    color: #98978b;
+}
+.panel-body {
+    padding: 15px;
+}
+.text-light {
+    color: #f8f9fa !important;
+}
+.panel-default {
+    border-color: #dfd7ca;
+}
